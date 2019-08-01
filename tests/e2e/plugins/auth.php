@@ -37,9 +37,9 @@ add_filter( 'get_user_option_googlesitekit_access_token', function () {
 /**
  * Fake a verified site state.
  */
-add_filter( 'get_user_option_googlesitekit_site_verified_meta', function () {
-	return 'verified';
-} );
+//add_filter( 'get_user_option_googlesitekit_site_verified_meta', function () {
+//	return 'verified';
+//} );
 
 /**
  * Fake all required scopes have been granted.
